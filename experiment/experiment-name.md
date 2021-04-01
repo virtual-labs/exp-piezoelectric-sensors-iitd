@@ -1,1 +1,1 @@
-## Experiment name
+## Vibration Characteristics of Aluminium Cantilever Beam Using Piezoelectric Sensors

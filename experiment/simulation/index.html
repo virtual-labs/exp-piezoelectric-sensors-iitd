@@ -1,13 +1,1373 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Experiment 7</title>
+    
+
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="jquerymin.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- BEGIN BASE CSS STYLE -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"type="text/css">
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="iitstyle.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Graph Script link start-->
+	<script language="javascript" type="text/javascript" src="t/excanvas.js"></script>
+	<script language="javascript" type="text/javascript" src="t/jquery.js"></script>
+	<script language="javascript" type="text/javascript" src="t/jquery.flot.js"></script>
+<!-- Graph Script link close -->
+    <script>
+
+        var simsubscreennum=0;
+
+        var temp=0;
+
+    </script>
+
+
+
+
+
+</head>
+
+<body style="margin:0; font-family: verdana;" >
+<table align="center">
+<tr><td>
+    <div id="simscreen" style="overflow: hidden;">
+
+        <div id="title"><h3>Vibration Characteristics of Aluminum Cantilever Beam </h3></div>
+
+
+
+
+<!-- Scene 0 -->
+
+
+
+<div class="simsubscreen" id="canvas0" style="visibility: visible; width: 700px;margin-right: 50px;margin-left: 50px;" ></br>
+
+<div id="transis" style="
+    width: 700px;
+    height: 190px;
+    margin-right: 27px;
+    margin-left: 1px;
+    background-color: #ffffffc9;
+    border: 2px solid #ff6600;">
+
+            <p class="incanvas" style="font-size:16px;"><strong>Objective:</strong></p>
+            <p class="incanvas" style="font-size:15px;">1. Vibration Characteristics of Aluminum Cantilever Beam Using Piezoelectric Sensors.</p><br>
+
+             <p class="incanvas" style="font-size:15px;"><strong>Apparatus Used:</strong></p>
+            <p class="incanvas" style="font-size:15px; float:left;"><strong>1.</strong> Digital Multimeter</p>
+            
+            <p class="incanvas" style="font-size:15px;  float:left; margin-left:15px;"><strong>2.</strong> Concrete Blocks </p>
+
+            <p class="incanvas" style="font-size:15px; float:left; margin-left:15px;"><strong>3.</strong> Hammer</p>
+            <p class="incanvas" style="font-size:15px;float:left; margin-left:15px; "><strong>4.</strong> PZT Patch</p>
+            <p class="incanvas" style="font-size:15px; float:left; margin-left:15px;"><strong>5.</strong> Aluminium Cantilever </p>
+            
+            
+<br><br><br>
+</div>  
+
+
+<!-- <img src="images/man.png"  id="" style=
+"   position: absolute;
+    left: 593px;
+    top: 85px;
+    height: 370px;
+
+"draggable="false"/> -->
+
+<img src="images/aluminium_cantilever.png"  id="" style=
+"   position: absolute;
+    left: 215px;
+    top: 500px;
+    width: 301px;
+    height: 35px;
+
+"draggable="false"/>
+
+<img src="images/block_1.png"  id="" style=
+"   position: absolute;
+    left: 15px;
+    top: 455px;
+    height: 85px;
+    width: 165px;
+
+"draggable="false"/>
+
+<img src="images/block_2.png"  id="" style=
+"   position: absolute;
+       left: 10px;
+    top: 410px;
+    height: 37px;
+    width: 165px;
+
+"draggable="false"/>
+
+<img src="images/pzt.png"  id="" style=
+"   position: absolute;
+    left: 575px;
+    top: 363px;
+    height: 25px;
+    width: 105px;
+    "draggable="false"/>
+
+<img src="images/full_mchine.png"  id="" style=
+"   position: absolute;
+        left: 254px;
+    top: 264px;
+    height: 200px;
+
+"draggable="false"/>
+
+<img src="images/lcrmeter.png"  id="" style=
+"   position: absolute;
+   left: 0px;
+    top: 246px;
+    height: 135px;
+
+"draggable="false"/>
+
+
+<span id="" style=
+"   position: absolute;
+    left: 50px;
+    top: 225px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > Digital Multimeter</span>
+
+<span id="" style=
+"   position: absolute;
+        left: 40px;
+    top: 380px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > Concrete Blocks</span>
+
+<span id="" style=
+"   position: absolute;
+    left: 355px;
+    top: 225px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > Hammer</span>
+
+<span id="" style=
+"   position: absolute;
+    left: 590px;
+    top: 320px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > PZT Patch</span>
+
+<span id="" style=
+"   position: absolute;
+    left: 300px;
+    top: 475px;
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+" > Aluminium Cantilever</span> 
+
+ <!--Blinking arrowcubox  -->
+    <span class="blink_me" id="arrowcubox" style="position:absolute; font-size: 30px;left: 565px; top: 495px; 
+    color: #2150a0;visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+<input type="button" id="nextButton10" style="position:absolute; left: 605px; top: 500px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; padding-bottom: 5px; color: #FFF;" value="&nbsp;Start Experiment&nbsp;" onclick="navNext0()"/>
+
+</div>
+
+
+
+
+<!-- Scene 1 -->
+
+
+
+<div class="simsubscreen" id="canvas1" style="visibility: hidden; background: url(images/bg.jpg);" ></br>
+
+
+
+<div id="" style="width: 750px;
+    height: 41px;
+    margin-left: 23px;
+    position: absolute;
+    top: 26px;
+    border: 2px solid #ff6600;
+    font-size: 17px;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255, 0.6);"> 
+
+ <!-- Cantilever Button============================================ -->
+
+    <span class="blink_me" id="arw1" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addcantilever" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0;
+    color: white;" value="&nbsp;Add&nbsp;" onclick="add_cantilever()"/>
+
+<!-- PZT Concrete ============================================ -->
+
+    <span class="blink_me" id="arw2" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addconcrete" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0; visibility: hidden;
+    color: white;" value="&nbsp;Add&nbsp;" onclick="add_concrete()"/>
+
+  <!-- PZT Button============================================ -->
+
+    <span class="blink_me" id="arw3" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addpzt" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0; visibility: hidden;
+    color: white;" value="&nbsp;Add&nbsp;" onclick="add_pzt()"/>
+
+<!-- Concrete2 Button============================================ -->
+
+    <span class="blink_me" id="arw8" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addconcrete2" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0; visibility: hidden;
+    color: white;" value="&nbsp;Add&nbsp;" onclick="add_concrete2()"/>
+
+<!-- Bond Button============================================ -->
+
+    <span class="blink_me" id="arw9" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addbond" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0; visibility: hidden;
+    color: white;" value="&nbsp;Add&nbsp;" onclick="add_bond()"/>
+
+<!-- //////////////////////////////////// -->
+
+<span id="step1" style="visibility: ; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (a) Click on Add Button to bring Aluminium Cantilever.</span>
+
+<span id="step2" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (b) Click on Add Button to bring Concrete Block.</span>
+
+<span id="step3" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (c) Click on Aluminium Cantilever to place it on the Concrete Block.</span>
+
+<span id="step3_1" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"> <strong> Step-1: </strong> (d) Click on Add Button to bring another Concrete Block.</span>
+
+<span id="step3_2" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"> <strong> Step-1: </strong> (e) Click on Concrete Block to place it on the Aluminium Cantilever.</span>
+
+<span id="step4" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (f) Click on Add Button to bring Bond.</span>
+
+<span id="step5" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (g) Click on brush to apply bond on the Aluminium Cantilever.</span>
+
+ <span id="step6" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (h) Click on Add Button to bring PZT Patch.</span>
+
+<span id="step7" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-1: </strong> (i) Click on PZT Patch to fix it on the Aluminium Cantilever.</span>
+
+
+</div> 
+
+
+
+
+
+
+
+
+<img src="images/block_1.png"  id="concrete" style=
+" position: absolute;
+  left: 590px;
+  top: 410px;
+  height: 125px;
+  width: 207px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/hand1.png"  id="hand1_concrete" style=
+" position: absolute;
+  left: 680px;
+  top: 384px;
+  height: 90px;
+  transform: rotate(-101deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+
+<img src="images/aluminium_cantilever.png"  id="aluminium_cantilever" style=
+" position: absolute;
+  left: 505px;
+  top: 480px;
+  height: 25px;
+  width: 290px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/greaseeffect.png"  id="greaseeffect" style=
+" position: absolute;
+  left: 240px;
+  top: 405px;
+  height: 17px;
+  width: 1px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/hand2.png"  id="hand2_cantilever" style=
+" position: absolute;
+  top: 430px;
+  left: 100px;
+  height: 90px;
+  transform: rotate(90deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/hand1.png"  id="hand1_cantilever" style=
+" position: absolute;
+  left: 645px;
+  top: 458px;
+  height: 75px;
+  transform: rotate(-101deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/block_2.png"  id="concrete2" style=
+" position: absolute;
+  left: 635px;
+  top: 485px;
+  height: 50px;
+  width: 207px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/hand1.png"  id="hand1_concrete2" style=
+" position: absolute;
+  left: 710px;
+  top: 459px;
+  height: 90px;
+  transform: rotate(-101deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/pzt.png"  id="pzt" style=
+" position: absolute;
+  left: 755px;
+  top: 420px;
+  height: 17px;
+  width: 55px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+
+<img src="images/bond.png"  id="bond" style=
+" position: absolute;
+  left: 720px;
+  top: 415px;
+  height: 85px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/brushfill.png"  id="brushfill" style=
+" position: absolute;
+  left: 730px;
+  top: 362px;
+  height: 109px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/brushfill_hand.png"  id="brushfill_hand" style=
+" position: absolute;
+  left: 610px;
+  top: 349px;
+  height: 120px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/brush_hand.png"  id="brush_hand" style=
+" position: absolute;
+  left: 285px;
+  top: 309px;
+  height: 116px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/brush.png"  id="brush" style=
+" position: absolute;
+  left: 609px;
+  top: 355px;
+  height: 111px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/transbox.png"  id="tb_cantilever" style=
+" position: absolute;
+  left: 10px;
+  top: 475px;
+  height: 35px;
+  width: 300px;
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="cantilever_fix()" />
+
+<img src="images/transbox.png"  id="tb_pzt" style=
+" position: absolute;
+  left: 675px;
+  top: 414px;
+  height: 30px;
+  width: 65px;
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="pzt_fix()" />
+
+<img src="images/transbox.png"  id="tb_brushfill" style=
+" position: absolute;
+  left: 619px;
+  top: 367px;
+  height: 110px;
+  width: 48px;
+  transform: rotate(25deg);
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="brushfill_move()" />
+
+<img src="images/transbox.png"  id="tb_concrete2" style=
+" position: absolute;
+  left: 561px;
+  top: 482px;
+  height: 57px;
+  width: 215px;
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="concrete2_fix()" />
+
+<span class="blink_me" id="arwtb_cantilever" style="position:absolute; font-size: 30px; left: 145px; top: 410px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arwtb_pzt" style="position:absolute; font-size: 30px; left: 690px; top: 360px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arwtb_concrete2" style="position:absolute; font-size: 30px; left: 640px;
+    top: 417px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arwtb_brushfill" style="position:absolute; font-size: 30px; left: 658px;
+    top: 330px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arrow11" style="position:absolute; font-size: 30px; left:695px; top:498px; color: steelblue; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+ <i class="fa fa-hand-o-right" id="nextButton11" style="color: steelblue; position:absolute; left:740px; top:500px; font-size: 35px; visibility:hidden;" onclick="navNext1()"></i>
+
+
+</div> 
+
+
+
+<!-- Scene 2 -->
+
+
+
+<div class="simsubscreen" id="canvas2" style="visibility: hidden; background: url(images/bg.jpg);" ></br>
+
+
+
+<div id="" style="width: 750px;
+    height: 41px;
+    margin-left: 23px;
+    position: absolute;
+    top: 26px;
+    border: 2px solid #ff6600;
+    font-size: 17px;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255, 0.6);"> 
+
+<!-- Soldrod Button============================================ -->
+
+    <span class="blink_me" id="arw1_can2" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility: ;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addsoldrod" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0;
+    color: white;" value="&nbsp;Add&nbsp;" onclick="add_soldrod()"/>
+
+<!-- PZR WIRES Button============================================ -->
+
+    <span class="blink_me" id="arw2_can2" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addpztwires" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    visibility: hidden;
+    background-color: #2150a0;
+    color: white;" value="&nbsp;Add&nbsp;" onclick="add_pztwires()"/>
+
+<!-- Hammer Button============================================ -->
+
+    <span class="blink_me" id="arw4" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addhammer" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0; visibility: hidden;
+    color: white;" value="&nbsp;Add&nbsp;" onclick="add_hammer()"/>
+
+<!-- LCR Button============================================ -->
+
+    <span class="blink_me" id="arw5" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="addlcr" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0; visibility: hidden;
+    color: white;" value="&nbsp;Add&nbsp;" onclick="add_lcr()"/>
+
+<!-- ANIMATION Button============================================ -->
+
+    <span class="blink_me" id="arw6" style="
+    position: absolute;
+    font-size: 30px;
+    left: 580px;
+    top: -2px;visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="animation_btn" style="position: absolute;
+    left: 618px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0; visibility: hidden;
+    color: white;" value="&nbsp;Hammer&nbsp;" onclick="animation_start()"/>
+
+<!-- STOP Button============================================ -->
+
+    <span class="blink_me" id="arw7" style="
+    position: absolute;
+    font-size: 30px;
+    left: 631px;
+    top: -2px;visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<input type="button" id="stop_btn" style="position: absolute;
+    left: 668px;
+    top: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 3px;
+    background-color: #2150a0; visibility: hidden;
+    color: white;" value="&nbsp;Stop&nbsp;" onclick="stop_hammer()"/>
+
+<!-- //////////////////////////////////// -->
+
+ <span id="step2_1" style="visibility: ; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-2: </strong> (a) Click on Add Button to bring Soldering iron.</span>
+
+<span id="step2_2" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (b) Click on Add Button to bring wires.</span>
+
+<span id="step2_3" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (c) Click on red wire to place it on the PZT pztch.</span>
+
+<span id="step2_4" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (d) Click on black wire to place it on the PZT pztch.</span>
+
+<span id="step2_5" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (e) Click on PZT pztch for Zoom view.</span>
+
+<span id="step2_6" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (f) Click on Soldering iron for soldering.</span>
+
+<span id="step2_7" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (g) Click on Soldering iron to bring it back.</span>
+
+<span id="step2_8" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (h) Click on Add Button to bring Hammer.</span>
+
+<span id="step2_9" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (i) Click on Add Button to bring Digital Multimeter.</span>
+
+<span id="step2_10" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (k) Click on Black Clip to attach wire with PZT wire.</span>
+
+<span id="step2_11" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (l) Click on Red Clip to attach wire with PZT wire.</span>
+
+<span id="step2_12" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (m) Switch On the power button of Digital Multimeter.</span>
+
+<span id="step2_13" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (n) Click on Hammer button to start animation.</span>
+
+<span id="step2_14" style="visibility: hidden; position: absolute; left: 10px; top: 8px; font-size: 17px;"><strong> Step-2: </strong> (o) Click on Stop button to stop animation.</span>
+
+
+</div> 
+
+<img src="images/lcrmeter.png"  id="lcrmeter" style=
+" position: absolute;
+  left: 545px;
+  top: 340px;
+  height: 150px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/off_screen.png"  id="off_screen" style=
+" position: absolute;
+  left: 600px;
+  top: 396px;
+  height: 19px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/lcrwire_black.png"  id="lcrwire_black" style=
+" position: absolute;
+  left: 550px;
+  top: 415px;
+  height: 125px;
+  transform: rotate(8deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/lcr_wire.png"  id="lcr_wire" style=
+" position: absolute;
+  left: 550px;
+  top: 429px;
+  height: 112px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/lcrwire_red.png"  id="lcrwire_red" style=
+" position: absolute;
+  left: 622px;
+  top: 428px;
+  height: 121px;
+  transform: rotate(5deg);
+  visibility: hidden;
+
+"draggable="false"/>
+
+<img src="images/hammer_wire.png"  id="hammer_wire" style=
+" position: absolute;
+  left: -108px;
+  top: 371px;
+  height: 50px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+
+<img src="images/full_mchine.png"  id="full_hammer" style=
+" position: absolute;
+  left: 1px;
+  top: 209px;
+  height: 185px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/hammer_stand.png"  id="hammer_stand" style=
+" position: absolute;
+  left: 200px;
+  top: 332px;
+  transform: rotateY(20deg);
+  height: 149px;
+  width: 152px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/hammer_circle.png"  id="hammer_circle" style=
+" position: absolute;
+  left: 182px;
+  top: 296px;
+  height: 95px;
+  transform: rotate(1deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/block_1.png"  id="" style=
+" position: absolute;
+      left: 320px;
+    top: 410px;
+    height: 125px;
+    width: 207px;
+  visibility:;
+
+"draggable="false"/>
+
+<img src="images/aluminium_cantilever.png"  id="" style=
+" position: absolute;
+  left: 90px;
+  top: 405px;
+  height: 25px;
+  width: 290px;
+  visibility:;
+
+"draggable="false"/>
+
+<img src="images/hammer_stick.png"  id="hammer_stick" style=
+" position: absolute;
+  left: 111px;
+  top: 334px;
+  height: 18px;
+  visibility:hidden;
+  transform-origin: center right;
+"draggable="false"/>
+
+
+<img src="images/block_2.png"  id="" style=
+" position: absolute;
+  height: 50px;
+  width: 207px;
+  left: 320px;
+  top: 380px;
+  visibility:;
+
+"draggable="false"/>
+
+<img src="images/pzt.png"  id="" style=
+" position: absolute;
+  left: 245px;
+  top: 404px;
+  height: 17px;
+  width: 55px;
+  visibility:;
+
+"draggable="false"/>
+
+<img src="images/greaseeffect.png"  id="" style=
+" position: absolute;
+  left: 240px;
+  top: 405px;
+  height: 17px;
+  width: 62px;
+  visibility:;
+
+"draggable="false"/>
+
+<img src="images/rod_wire.png"  id="rod_wire" style=
+" position: absolute;
+  left: 791px;
+  top: 302px;
+  height: 147px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+
+<img src="images/soldrod.png"  id="soldrod" style=
+" position: absolute;
+  left: 712px;
+  top: 303px;
+  height: 147px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+
+<img src="images/soldstand.png"  id="soldstand" style=
+" position: absolute;
+  left: 704px;
+  top: 374px;
+  height: 110px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/soldering_image.png"  id="soldering4_image" style=
+" position: absolute;
+  left: 294px;
+  top: 406px;
+  height: 4px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/blackclipclose.png"  id="blackclipclose2" style=
+" position: absolute;
+  left: 378px;
+  top: 508px;
+  height: 25px;
+  transform: rotate(11deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/redclipclose.png"  id="redclipclose2" style=
+" position: absolute;
+  left: 371px;
+  top: 526px;
+  height: 25px;
+  transform: rotate(1deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/pztwire_black.png"  id="pztwire_black" style=
+" position: absolute;
+  left: 697px;
+  top: 445px;
+  height: 130px;
+  transform: rotate(-61deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/pztwire_red.png"  id="pztwire_red" style=
+" position: absolute;
+  left: 695px;
+  top: 420px;
+  height: 151px;
+  visibility: hidden;
+  transform: rotate(-61deg);
+
+"draggable="false"/>
+
+<img src="images/soldering_image.png"  id="soldering3_image" style=
+" position: absolute;
+  left: 275px;
+  top: 409px;
+  height: 4px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/zoom.png"  id="zoomview_img" style=
+" position: absolute;
+  left: 136px;
+  top: 137px;
+  height: 415px;
+  border: 4px solid black;
+  border-radius: 214px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/soldering_image.png"  id="soldering_image" style=
+" position: absolute;
+  left: 295px;
+  top: 338px;
+  height: 8px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/soldering_image.png"  id="soldering2_image" style=
+" position: absolute;
+  left: 341px;
+  top: 330px;
+  height: 8px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/handrod_wire.png"  id="handrod_wire" style=
+" position: absolute;
+  left: 560px;
+  top: 303px;
+  height: 148px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/silverhand.png"  id="silverhand" style=
+" position: absolute;
+  left: 70px;
+  top: 445px;
+  height: 112px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/black_circle.png"  id="black_circle" style=
+" position: absolute;
+  left: 716px;
+  top: 416px;
+  height: 11px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/red_circle.png"  id="red_circle" style=
+" position: absolute;
+  left: 734px;
+  top: 433px;
+  height: 11px;
+  visibility:hidden;
+
+"draggable="false"/>
+
+<div id="line_black" style="position: absolute;
+  left: 536px;
+  top: 524px;
+  height: 3.2px;
+  width: 7px;
+  visibility: hidden;
+  background-color: rgb(31 28 29);"></div>
+
+<div id="line_red"style="position: absolute;
+  left: 608px;
+  top: 539px;
+  height: 3.2px;
+  width: 10px;
+  visibility: hidden;
+  background-color: #EC3237;"></div>
+
+<img src="images/redclipclose.png"  id="redclipclose" style=
+" position: absolute;
+  left: 572px;
+  top: 525px;
+  height: 25px;
+  transform: rotate(0deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/blackclipclose.png"  id="blackclipclose" style=
+" position: absolute;
+  left: 500px;
+  top: 508px;
+  height: 25px;
+  transform: rotate(8deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/blackclipopen.png"  id="blackclipopen" style=
+" position: absolute;
+  left: 383px;
+  top: 508px;
+  height: 25px;
+  transform: rotate(11deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/redclipopen.png"  id="redclipopen" style=
+" position: absolute;
+  left: 388px;
+  top: 525px;
+  height: 25px;
+  transform: rotate(0deg);
+  visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/transbox.png"  id="tb_pztwire_red" style=
+" position: absolute;
+  left: 542px;
+  top: 485px;
+  height: 46px;
+  width: 182px;
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="pztwire_red_fix()" />
+
+<img src="images/transbox.png"  id="tb_pztwire_black" style=
+" position: absolute;
+  left: 542px;
+  top: 492px;
+  height: 46px;
+  width: 182px;
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="pztwire_black_fix()" />
+
+<img src="images/transbox.png"  id="tb_soldrod" style=
+" position: absolute;
+  left: 602px;
+  top: 301px;
+  height: 100px;
+  width: 35px;
+  transform: rotate(32deg);
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="soldring()" />
+
+<img src="images/transbox.png"  id="tb_zoom" style=
+" position: absolute;
+  left: 240px;
+  top: 395px;
+  height: 35px;
+  width: 65px;
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="zoomview()" />
+
+<img src="images/transbox.png"  id="tb_soldallback" style=
+" position: absolute;
+  left: 578px;
+  top: 300px;
+  height: 170px;
+  transform: rotate(30deg);
+  width: 50px;
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="soldallback()" />
+
+<img src="images/transbox.png"  id="tb_blackclip" style=
+" position: absolute;
+  left: 497px;
+  top: 507px;
+  height: 24px;
+  width: 45px;
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="blackclip_fix()" />
+
+<img src="images/transbox.png"  id="tb_redclip" style=
+" position: absolute;
+  left: 570px;
+  top: 522px;
+  height: 24px;
+  width: 45px;
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="redclip_fix()" />
+
+<img src="images/transbox.png"  id="tb_lcron" style=
+" position: absolute;
+  left: 569px;
+  top: 432px;
+  height: 15px;
+  width: 15px;
+  visibility:hidden;
+  border: 0px solid red;
+
+"draggable="false", onclick="lcr_on()" />
+
+<span class="blink_me" id="arwbtn_pztwire_red" style="position:absolute; font-size: 30px; left: 635px;
+    top: 470px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arwbtn_pztwire_black" style="position:absolute; font-size: 30px; left: 635px;
+    top: 470px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arw_soldrod" style="position:absolute; font-size: 30px; left: 625px;
+    top: 260px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arw_zomm" style="position:absolute; font-size: 30px; left: 250px;
+    top: 350px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arw_soldallback" style="position:absolute; font-size: 30px; left: 620px;
+    top: 265px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arwtb_redclip" style="position:absolute; font-size: 30px; left: 575px;
+    top: 480px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arwtb_lcron" style="position:absolute; font-size: 30px; left: 535px;
+    top: 417px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<span class="blink_me" id="arwtb_blackclip" style="position:absolute; font-size: 30px; left: 505px;
+    top: 465px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
+
+<span class="blink_me" id="arrow12" style="position:absolute; font-size: 30px; left:695px; top:498px; color: steelblue; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+ <i class="fa fa-hand-o-right" id="nextButton12" style="color: steelblue; position:absolute; left:740px; top:500px; font-size: 35px; visibility:hidden;" onclick="navNext2()"></i>
+
+
+</div> 
+
+
+<!-- Scene 3 -->
+
+
+
+<div class="simsubscreen" id="canvas3" style="visibility: hidden; background: url(images/bg.jpg);" ></br>
+
+
+
+<div id="" style="width: 750px;
+    height: 41px;
+    margin-left: 23px;
+    position: absolute;
+    top: 26px;
+    border: 2px solid #ff6600;
+    font-size: 17px;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255, 0.6);"> 
+
+
+
+<!-- //////////////////////////////////// -->
+
+ <span id="step1" style="visibility: ; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-3: </strong> Select Time & No. of samples and click on Submit button.</span>
+
+
+</div> 
+
+<span id="" style="visibility: ; position: absolute; left: 35px; top: 106px; font-size: 17px;">
+<strong> Time:</strong> </span>
+
+<select name="val1" id="val1"  style="
+position: absolute;
+left: 120px;
+top: 109px;
+    ">
+<option value="">---Select Option---</option>
+<option value="frm1"> 1ms </option>
+</select>
+
+<span id="" style="visibility: ; position: absolute; left: 340px; top: 106px; font-size: 17px;">
+<strong> No. of samples:</strong> </span>
+
+<select name="val2" id="val2"  style="
+position: absolute;
+left: 490px;
+top: 109px;
+    ">
+<option value="">---Select Option---</option>
+<option value="frm2"> 5000 Hz </option>
+</select>
+
+<span id="select_abc" style="visibility:hidden; position: absolute; left: 665px; top: 141px; font-size: 17px; color: red;"><strong> Select First</strong> </span>
+
+<button id="btn_submit" style=" position: absolute; left: 645px; top: 105px; height: 25px; width: 130px;  background-color: steelblue;color: white; visibility: ;" onclick="graph_show()">Submit</button>
+
+<div id="transwhite" style=" position: absolute;
+    left: 25px;
+    top: 148px;
+    height: 391px;
+    width: 749px; border: 2px solid #FF6600; visibility: hidden;">
+
+ <img src="images/time.png"  id="graph1" style=
+"   position: absolute;
+    left: 23px;
+    top: 50px;
+    height: 185px;
+    visibility:hidden;
+"draggable="false"/>
+
+ <img src="images/frequancy.png"  id="graph2" style=
+"   position: absolute;
+    left: 378px;
+    top: 50px;
+    height: 185px;
+    visibility:hidden;
+"draggable="false"/>
+</div>
+
+<i class="fa fa-hand-o-right "   id="arrow_note" style="position: absolute;
+  left: 56px;
+  top: 410px;
+  font-size: 25px;
+  color: blue;
+  visibility:hidden;" ></i>
+
+<div id="note1"  style="
+  position: absolute;
+  left: 100px;
+  top: 405px;
+  height: 40px;
+  width: 650px;
+  text-align: center;
+  background-color: rgb(193 193 193);
+  font-weight: bold;
+  color: black;
+  padding-top: 10px; visibility: hidden;">Note:--Notice the highest peak in the graph and note it as the natural frequency.</div>
+
+
+<span class="blink_me" id="arrow13" style="position:absolute; font-size: 30px; left:690px; top:490px; color: steelblue; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+ <i class="fa fa-hand-o-right" id="nextButton13" style="color: steelblue; position:absolute; left:730px; top:490px; font-size: 35px; visibility:hidden;" onclick="navNext3()"></i>
+
+
+</div> 
+
+
+<!-- Scene 4 -->
+
+
+
+<div class="simsubscreen" id="canvas4" style="visibility: hidden; background: url(images/bg.jpg);" ></br>
+
+
+
+<div id="" style="width: 750px;
+    height: 41px;
+    margin-left: 23px;
+    position: absolute;
+    top: 26px;
+    border: 2px solid #ff6600;
+    font-size: 17px;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+    background-color: rgb(255, 255, 255, 0.6);"> 
+
+
+
+<!-- //////////////////////////////////// -->
+
+ <span id="step1" style="visibility: ; position: absolute; left: 10px; top: 8px; font-size: 17px;">
+<strong> Step-4: </strong> Calculate the natural frequency theoretically</span>
+
+
+<!-- </div>  -->
+
+
+<div id="transwhite" style=" position: absolute;
+    left: -2px;
+    top: 87px;
+    height: 391px;
+    width: 749px; border: 2px solid #FF6600; visibility: ;">
+
+<img src="images/formula.png"  id="" style=
+"   position: absolute;
+    left: 255px;
+    top: 40px;
+    height: 70px;
+    visibility:;
+"draggable="false"/>
+
+<span id="" style="visibility: ; position: absolute; left: 240px; top: 132px; font-size: 17px;"> (refer manual of experiment)</span>
+
+<span id="" style="visibility: ; position: absolute; left: 65px; top: 185px; font-size: 17px;"> Compare the calculated theoretical frequency with the frequency obtained through <br>this experiment.</span>
+
+</div>
+
+<div id=""  style="
+  position: absolute;
+      left: 125px;
+    top: 355px;
+  height: 40px;
+  width: 500px;
+  text-align: center;
+  background-color: rgb(193 193 193);
+  font-weight: bold;
+  color: black;
+  padding-top: 10px; visibility: ;">Thank you for performing the experiment</div>
+
+ <button id="btn_restart" style=" position: absolute; left: 585px;
+    top: 425px; height: 30px; width: 130px;  background-color: steelblue;color: white; visibility: ;" onclick="reset()">Restart</button>
+
+<span class="blink_me" id="arwbtn_restart" style="position:absolute; font-size: 30px;     left: 545px;
+    top: 418px; color: blue; visibility:;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+<span class="blink_me" id="arrow14" style="position:absolute; font-size: 30px; left:695px; top:498px; color: black; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+
+ <i class="fa fa-hand-o-right" id="nextButton14" style="color: black; position:absolute; left:740px; top:500px; font-size: 35px; visibility:hidden;" onclick="navNext4()"></i>
+
+
+</div> 
+
+
+</div><!--- First Div---->
+
+</td></tr>
+</table>
+
 </body>
 </html>

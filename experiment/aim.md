@@ -1,1 +1,1 @@
-### Aim of the experiment
+#### This experiment aims to study the vibration characteristics of an aluminium cantilever beam using piezoelectric-ceramic (PZT) sensor. The first natural frequency and the corresponding damping ratio is determined through vibration analysis.
