@@ -34,37 +34,73 @@
 
 <img src="images/pr6.png"/>
 
-7. Click on Add button to bring PZT Patch.
+7. Click on Add Button to bring Bond.
 
 <img src="images/pr7.png"/>
 
-8. Click on PZT Patch to fix it on the Aluminium Cantilever.
+8. Click on brush to apply bond on the Aluminium Cantilever.
 
 <img src="images/pr8.png"/>
 
-9. Click on Add button to bring Hammer.
+9. Click on Add Button to bring PZT Patch.
 
 <img src="images/pr9.png"/>
 
-10. Click on Hammer to place it on the position.
+10. Click on PZT Patch to fix it on the Aluminium Cantilever.
 
 <img src="images/pr10.png"/>
 
-11. Click on Add button to bring Digital Multimeter.
+11. Click on Add Button to bring Soldering iron.
 
 <img src="images/pr11.png"/>
 
-12. Click on both clips one by one to attach wires with PZT wires.
+12. Click on Add Button to bring wires.
 
 <img src="images/pr12.png"/>
 
-13. Switch on the power button of Digital Multimeter.
+13. Click on wires one by one to place these on the PZT Patch.
 
 <img src="images/pr13.png"/>
 
-14. Click on Hammer button to start hammer.
+14. Click on PZT Patch for zoom view.
 
 <img src="images/pr14.png"/>
+
+15. Click on Soldering iron for soldering.
+
+<img src="images/pr15.png"/>
+
+16. Click on Add Button to bring Hammer.
+
+<img src="images/pr16.png"/>
+
+17. Click on Add Button to bring Digital Multimeter.
+
+<img src="images/pr17.png"/>
+
+18. Click on both clips one by one to attach these with PZT wires.
+
+<img src="images/pr18.png"/>
+
+19. Switch On the power button of Digital Multimeter.
+
+<img src="images/pr19.png"/>
+
+20. Click on Hammer button to start animation.
+
+<img src="images/pr20.png"/>
+
+21. Click on Stop button to stop animation.
+
+<img src="images/pr21.png"/>
+
+22. Select Time & No. of samples and click on Submit button.
+
+<img src="images/pr22.png"/>
+
+23. Calculate the natural frequency theoretically and compare with frequency obtained through this experiment.
+
+<img src="images/pr23.png"/>
 
 **POST EXPRIMENT QUIZ QUESTIONS**
 
