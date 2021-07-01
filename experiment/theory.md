@@ -21,8 +21,6 @@ where <i>N</i> is the total number of samples in the time domain (here 5000) and
 
 <img src="images/th4.png"/>
 
-**Fig. 2** Expected sensor response a) Time domain b) Frequency domain
-
 From the frequency plot, the user can identify the natural frequency of the beam as the frequency corresponding to which peak voltage response is observed (here about 10 Hz). The damping ratio can be calculated using the half power band method (Paz, 2004) as
 
 <img src="images/th5.png" height="70px"/>
