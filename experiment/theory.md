@@ -14,7 +14,7 @@ The user may plot the time domain data in excel to visualize the free damped osc
 
 This command will produce a matrix of voltage values in the frequency domain. The corresponding matrix of frequencies can be obtained by using following command
 
-<img src="images/th3.png" height="50px"/>
+<img src="images/th3.png" style="height:50px; padding-left: 30px;"/>
 
 where <i>N</i> is the total number of samples in the time domain (here 5000) and <i>T</i> the sampling interval (here
 0.001 second). It may be noted that the VEE PRO dialogue box also provides the matrix <i>V_fft</i>. The user may use it directly if MATLAB is not available. Fig. 2 shows typical time and frequency domain responses expected if the experiment is correctly performed.
