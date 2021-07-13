@@ -700,6 +700,7 @@ document.getElementById("note1").style.visibility="visible";
 document.getElementById("arrow_note").style.visibility="visible";
 document.getElementById("nextButton13").style.visibility="visible";
 document.getElementById("arrow13").style.visibility="visible";
+ document.getElementById("btn_dwld").style.visibility="visible";
 document.getElementById("select_abc").style.visibility="hidden";	
 } 
 else { document.getElementById("select_abc").style.visibility="visible";
