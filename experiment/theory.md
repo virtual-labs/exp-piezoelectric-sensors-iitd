@@ -28,6 +28,6 @@ From the frequency plot, the user can identify the natural frequency of the beam
 where f<sub>n</sub> is the frequency corresponding to peak response and f<sub>1</sub> and f<sub>2</sub> represent the frequencies corresponding to 0.707 of the peak response <i>(f2 > fn > f1)</i>.<br>
 The user may compare the values obtained through this experiment with damping ratio available from the literature and the theoretical frequency given below (Paz, 2004).
 
-<img src="images/th6.png" height="70px"/>
+<img src="images/th6.png" style="padding-left: 18px; height: 70px"/>
 
 Where <i>E</i> denotes the Young’s modulus of elasticity of the beam, <i>I</i> the moment of inertia, <i>ρ</i> the material density and <i>L</i> the length of the beam.
