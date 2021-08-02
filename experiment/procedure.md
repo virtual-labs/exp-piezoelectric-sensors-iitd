@@ -1,6 +1,6 @@
 ### These steps will be followed for the experiment
 
-**PRE EXPRIMENT QUIZ QUESTIONS**
+**PRE EXPERIMENT QUIZ QUESTIONS**
 	
 1) What is natural frequency?
 2) What is piezoelectric sensor?
@@ -10,71 +10,71 @@
 
 #### Preparation of specimens:
 
-1. Click on Start Experiment button to start the experiment.
+1. Click on start experiment button to start the experiment.
 
 <img src="images/pr1.png"/>
 
-2. Click on Add button to bring Aluminium Cantilever.
+2. Click on add button to bring aluminium cantilever.
 
 <img src="images/pr2.png"/>
 
-3. Click on Add button to bring Concrete Block.
+3. Click on add button to bring concrete block.
 
 <img src="images/pr3.png"/>
 
-4. Click on Aluminium Cantilever to place it on the Concrete Block.
+4. Click on aluminium cantilever to place it on the concrete block.
 
 <img src="images/pr4.png"/>
 
-5. Click on Add button to bring another Concrete Block.
+5. Click on add button to bring another concrete block.
 
 <img src="images/pr5.png"/>
 
-6. Click on another Concrete Block to place it on the Aluminium Cantilever.
+6. Click on another concrete block to place it on the aluminium cantilever.
 
 <img src="images/pr6.png"/>
 
-7. Click on Add Button to bring Bond.
+7. Click on add button to bring bond.
 
 <img src="images/pr7.png"/>
 
-8. Click on brush to apply bond on the Aluminium Cantilever.
+8. Click on brush to apply bond on the aluminium cantilever.
 
 <img src="images/pr8.png"/>
 
-9. Click on Add Button to bring PZT Patch.
+9. Click on add button to bring PZT patch.
 
 <img src="images/pr9.png"/>
 
-10. Click on PZT Patch to fix it on the Aluminium Cantilever.
+10. Click on PZT patch to fix it on the aluminium cantilever.
 
 <img src="images/pr10.png"/>
 
-11. Click on Add Button to bring Soldering iron.
+11. Click on add button to bring soldering iron.
 
 <img src="images/pr11.png"/>
 
-12. Click on Add Button to bring wires.
+12. Click on add button to bring wires.
 
 <img src="images/pr12.png"/>
 
-13. Click on wires one by one to place these on the PZT Patch.
+13. Click on wires one by one to place these on the PZT patch.
 
 <img src="images/pr13.png"/>
 
-14. Click on PZT Patch for zoom view.
+14. Click on PZT patch for zoom view.
 
 <img src="images/pr14.png"/>
 
-15. Click on Soldering iron for soldering.
+15. Click on soldering iron for soldering.
 
 <img src="images/pr15.png"/>
 
-16. Click on Add Button to bring Hammer.
+16. Click on add button to bring hammer.
 
 <img src="images/pr16.png"/>
 
-17. Click on Add Button to bring Digital Multimeter.
+17. Click on add button to bring digital multimeter.
 
 <img src="images/pr17.png"/>
 
@@ -82,19 +82,19 @@
 
 <img src="images/pr18.png"/>
 
-19. Switch On the power button of Digital Multimeter.
+19. Switch on the power button of digital multimeter.
 
 <img src="images/pr19.png"/>
 
-20. Click on Hammer button to start animation.
+20. Click on hammer button to start animation.
 
 <img src="images/pr20.png"/>
 
-21. Click on Stop button to stop animation.
+21. Click on stop button to stop animation.
 
 <img src="images/pr21.png"/>
 
-22. Select Time & No. of samples and click on Submit button.
+22. Select time & no. of samples and click on submit button.
 
 <img src="images/pr22.png"/>
 
@@ -102,7 +102,7 @@
 
 <img src="images/pr23.png"/>
 
-**POST EXPRIMENT QUIZ QUESTIONS**
+**POST EXPERIMENT QUIZ QUESTIONS**
 
 1) Plot the voltage response in time domain in MS Excel.
 2) Using Matlab convert the voltage response from time domain to

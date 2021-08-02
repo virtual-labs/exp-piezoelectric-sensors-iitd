@@ -14,23 +14,20 @@ The user may plot the time domain data in excel to visualize the free damped osc
 
 This command will produce a matrix of voltage values in the frequency domain. The corresponding matrix of frequencies can be obtained by using following command
 
-<img src="images/th3.png" height="50px"/>
+<img src="images/th3.png" style="height:50px; padding-left: 30px;"/>
 
 where <i>N</i> is the total number of samples in the time domain (here 5000) and <i>T</i> the sampling interval (here
 0.001 second). It may be noted that the VEE PRO dialogue box also provides the matrix <i>V_fft</i>. The user may use it directly if MATLAB is not available. Fig. 2 shows typical time and frequency domain responses expected if the experiment is correctly performed.
 
 <img src="images/th4.png"/>
 
-**Fig. 2** Expected sensor response a) Time domain b) Frequency domain
-
 From the frequency plot, the user can identify the natural frequency of the beam as the frequency corresponding to which peak voltage response is observed (here about 10 Hz). The damping ratio can be calculated using the half power band method (Paz, 2004) as
 
 <img src="images/th5.png" height="70px"/>
 
-where f<sub>n</sub> is the frequency corresponding to peak response and f<sub>1</sub> and f<sub>2</sub> represent the frequencies corresponding to 0.707 of the peak response <i>(f2 > fn > f1)</i>.
-
+where f<sub>n</sub> is the frequency corresponding to peak response and f<sub>1</sub> and f<sub>2</sub> represent the frequencies corresponding to 0.707 of the peak response <i>(f2 > fn > f1)</i>.<br>
 The user may compare the values obtained through this experiment with damping ratio available from the literature and the theoretical frequency given below (Paz, 2004).
 
-<img src="images/th5.png" height="70px"/>
+<img src="images/th6.png" style="padding-left: 18px; height: 70px"/>
 
 Where <i>E</i> denotes the Young’s modulus of elasticity of the beam, <i>I</i> the moment of inertia, <i>ρ</i> the material density and <i>L</i> the length of the beam.
