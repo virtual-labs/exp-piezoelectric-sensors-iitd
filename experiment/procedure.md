@@ -1,12 +1,12 @@
 ### These steps will be followed for the experiment
 
-**PRE EXPERIMENT QUIZ QUESTIONS**
+<!-- **PRE EXPERIMENT QUIZ QUESTIONS**
 	
 1) What is natural frequency?
 2) What is piezoelectric sensor?
 3) What are free-damped oscillations?
 4) What is damping ratio?
-5) What is the relation between damping ratio and natural frequency?
+5) What is the relation between damping ratio and natural frequency? -->
 
 #### Preparation of specimens:
 
@@ -102,12 +102,12 @@
 
 <img src="images/pr23.png"/>
 
-**POST EXPERIMENT QUIZ QUESTIONS**
+<!-- **POST EXPERIMENT QUIZ QUESTIONS**
 
 1) Plot the voltage response in time domain in MS Excel.
 2) Using Matlab convert the voltage response from time domain to
 frequency domain and plot the graph.
 3) Calculate the natural frequency of the beam from the frequency plot.
-4) Calculate the damping ratio using half power band method.
+4) Calculate the damping ratio using half power band method. -->
 5) Compare the experimental damping ratio with the value available in
 literature.
