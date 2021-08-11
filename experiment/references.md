@@ -6,4 +6,4 @@
 	
 4.	<a href="http://ssdl.iitd.ac.in/vssdl/piezo.pdf">Literature on piezoelectric sensors.</a>
 
-5.	<a href="images/manual_exp1.pdf">For more details.</a>
+5.	For manual <a href="images/manual_exp1.pdf">click here</a>
