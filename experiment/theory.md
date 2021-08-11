@@ -6,7 +6,9 @@ The cantilever beam is excited into free-damped vibrations through an automatic 
 
 <img src="images/theory1.png"/>
 
-**Fig. 1** Experimental set up
+<center>
+	**Fig. 1** Experimental set up
+</center>
 
 The user may plot the time domain data in excel to visualize the free damped oscillations more minutely. At the same time, through fast Fourier transform, the user can convert the time domain data (as a matrix of voltage output, <i>V_time</i>) in the frequency domain. If using MATLAB, following commands can be used:
 
