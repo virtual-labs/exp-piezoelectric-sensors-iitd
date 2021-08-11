@@ -1,8 +1,8 @@
-### EXPERIMENTAL METHODOLOGY
+### Theory
 	
-The experimental setup is as shown in Fig. 1. It consists of a cantilevered aluminium beam of dimensions 300 × 18.2 × 2.15 mm with a PZT sensor bonded on the surface near the point of fixity. The wires from the patch are connected to Agilent 34411A digital multi meter (DMM) which is in turn connected to the LAN port and thus accessible to the user through the internet/intranet.
+The experimental setup is as shown in Fig. 1. It consists of a cantilevered aluminium beam of dimensions 300 × 18.2 × 2.15 mm with a Piezoelectric PZT sensor bonded on the surface near the point of fixity. The wires from the patch are connected to Agilent 34411A Digital Multi Meter (DMM) which is in turn connected to the LAN port and thus accessible to the user through the internet/intranet.
 
-The cantilever beam is excited into free-damped vibrations through an automatic mechanical exciter at regular intervals. As the beam vibrates, the surface strain fluctuates between compression and tension, thereby developing sinusoidally varying charge (and hence voltage) across the electrodes of the PZT sensor through the direct piezoelectric effect (http://ssdl.iitd.ac.in/vssdl/piezo.pdf) to learn more about piezoelectricity. The instantaneous voltage developed across the piezoelectric sensor is measured at the user specified time interval using the DMM. The VEE PRO based interactive dialogue box available in the main page of the experiment (http://ssdl.iitd.ac.in/vssdl/exp1.html) can be used for this purpose. A sampling rate of 1 millisecond and a total sampling time of 5s (total 5, 000 measurements) is recommended for best results. The dialogue box stores the time and the frequency domain data in the computer of the user. Plots are also available in the VEE PRO dialogue box.
+The cantilever beam is excited into free-damped vibrations through an automatic mechanical exciter at regular intervals. As the beam vibrates, the surface strain fluctuates between compression and tension, thereby developing sinusoidally varying charge (and hence voltage) across the electrodes of the PZT sensor through the direct piezoelectric effect (for more details <a href="http://ssdl.iitd.ac.in/vssdl/piezo.pdf">click here</a>) to learn more about piezoelectricity. The instantaneous voltage developed across the piezoelectric sensor is measured at the user specified time interval using the DMM. The VEE PRO based interactive dialogue box available in the main page of the experiment (for more details <a href="http://ssdl.iitd.ac.in/vssdl/exp1.html">click here</a>) can be used for this purpose. A sampling rate of 1 millisecond and a total sampling time of 5s (total 5, 000 measurements) is recommended for best results. The dialogue box stores the time and the frequency domain data in the computer of the user. Plots are also available in the VEE PRO dialogue box.
 
 <img src="images/theory1.png"/>
 
@@ -30,4 +30,4 @@ The user may compare the values obtained through this experiment with damping ra
 
 <img src="images/th6.png" style="padding-left: 18px; height: 70px"/>
 
-Where <i>E</i> denotes the Young’s modulus of elasticity of the beam, <i>I</i> the moment of inertia, <i>ρ</i> the material density and <i>L</i> the length of the beam.
+where <i>E</i> denotes the Young’s modulus of elasticity of the beam, <i>I</i> the moment of inertia, <i>ρ</i> the material density and <i>L</i> the length of the beam.
