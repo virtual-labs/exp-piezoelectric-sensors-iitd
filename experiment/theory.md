@@ -6,6 +6,7 @@ The cantilever beam is excited into free-damped vibrations through an automatic 
 <center>
 	
 <img src="images/theory1.png"/>
+
 	
 **Fig. 1** Experimental set up
 	
