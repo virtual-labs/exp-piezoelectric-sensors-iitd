@@ -2,7 +2,7 @@
 	
 The experimental setup is as shown in Fig. 1. It consists of a cantilevered aluminium beam of dimensions 300 × 18.2 × 2.15 mm with a Piezoelectric PZT patch sensor bonded on the surface near the point of fixity. The wires from the patch are connected to Agilent 34411A Digital Multi Meter (DMM) which is in turn connected to the LAN port and thus accessible to the user through the internet/intranet.
 
-The cantilever beam is excited into free-damped vibrations through an automatic mechanical exciter at regular intervals. As the beam vibrates, the surface strain fluctuates between compression and tension, thereby developing sinusoidally varying charge (and hence voltage) across the electrodes of the PZT patch sensor through the direct piezoelectric effect (for more details <a href="http://ssdl.iitd.ac.in/vssdl/piezo.pdf">click here</a>) to learn more about piezoelectricity. The instantaneous voltage developed across the piezoelectric sensor is measured at the user specified time interval using the DMM. The VEE PRO based interactive dialogue box available in the main page of the experiment (for more details <a href="http://ssdl.iitd.ac.in/vssdl/exp1.html">click here</a>) can be used for this purpose. A sampling rate of 1 millisecond and a total sampling time of 5s (total 5, 000 measurements) is recommended for best results. The dialogue box stores the time and the frequency domain data in the computer of the user. Plots are also available in the VEE PRO dialogue box.
+The cantilever beam is excited into free-damped vibrations through an automatic mechanical exciter at regular intervals. As the beam vibrates, the surface strain fluctuates between compression and tension, thereby developing sinusoidally varying charge (and hence voltage) across the electrodes of the PZT patch sensor through the direct piezoelectric effect (for more details <a href="http://ssdl.iitd.ac.in/vssdl/piezo.pdf">click here</a>) to learn more about piezoelectricity. The instantaneous voltage developed across the piezoelectric sensor is measured at the user specified time interval using the DMM. The VEE PRO based interactive dialogue box available in the main page of the experiment (for more details <a href="http://ssdl.iitd.ac.in/vssdl/exp1.html">click here</a>) can be used for this purpose. A sampling rate of 1 millisecond and a total sampling time of 5s is recommended for best results. The dialogue box stores the time and the frequency domain data in the computer of the user. Plots are also available in the VEE PRO dialogue box.
 <center>
 	
 <img src="images/theory1.png"/>
@@ -20,12 +20,12 @@ This command will produce an array of voltage values in the frequency domain. Th
 
 <img src="images/th3.png" style="height:50px; padding-left: 30px;"/>
 
-where <i>N</i> is the total number of samples in the time domain (here 5000) and <i>T</i> the sampling interval (here
+where <i>N</i> is the total number of samples in the time domain and <i>T</i> the sampling interval (here
 0.001 second). It may be noted that the VEE PRO dialogue box also provides the array <i>V_fft</i>. The user may use it directly if MATLAB is not available. Fig. 2 shows typical time and frequency domain responses expected if the experiment is correctly performed.
 
 <img src="images/th4.png"/>
 
-From the frequency plot, the user can identify the natural frequency of the beam as the frequency corresponding to which peak voltage response is observed (here about 10 Hz). The damping ratio can be calculated using the half power band method (Paz, 2004) as
+From the frequency plot, the user can identify the natural frequency of the beam as the frequency corresponding to which peak voltage response is observed. The damping ratio can be calculated using the half power band method (Paz, 2004) as
 
 <img src="images/th5.png" height="70px"/>
 
