@@ -1,1 +1,1 @@
-## Vibration Characteristics of Aluminium Cantilever Beam Using Piezoelectric Sensors
+## Vibration Characteristics of Aluminium Cantilever Beam Using Piezoelectric Sensor
