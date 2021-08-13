@@ -94,7 +94,7 @@
 
 <img src="images/pr21.png"/>
 
-22. Select time & no. of samples and click on submit button.
+22. Click on download data button.
 
 <img src="images/pr22.png"/>
 
