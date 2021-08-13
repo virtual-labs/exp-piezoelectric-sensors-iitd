@@ -535,9 +535,9 @@
 <span class="blink_me" id="arwtb_brushfill" style="position:absolute; font-size: 30px; left: 658px;
     top: 330px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
 
-<span class="blink_me" id="arrow11" style="position:absolute; font-size: 30px; left:695px; top:498px; color: steelblue; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+<span class="blink_me" id="arrow11" style="position:absolute; font-size: 30px; left:695px; top:498px; color: black; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
 
- <i class="fa fa-hand-o-right" id="nextButton11" style="color: steelblue; position:absolute; left:740px; top:500px; font-size: 35px; visibility:hidden;" onclick="navNext1()"></i>
+ <i class="fa fa-hand-o-right" id="nextButton11" style="color: black; position:absolute; left:740px; top:500px; font-size: 35px; visibility:hidden;" onclick="navNext1()"></i>
 
 
 </div> 
@@ -798,7 +798,7 @@
 
 "draggable="false"/>
 
-<img src="images/aluminium_cantilever.png"  id="" style=
+<img src="images/aluminium_cantilever.png"  id="beam_shake" style=
 " position: absolute;
   left: 90px;
   top: 405px;
@@ -828,15 +828,7 @@
 
 "draggable="false"/>
 
-<img src="images/pzt.png"  id="" style=
-" position: absolute;
-  left: 245px;
-  top: 404px;
-  height: 17px;
-  width: 55px;
-  visibility:;
 
-"draggable="false"/>
 
 <img src="images/greaseeffect.png"  id="" style=
 " position: absolute;
@@ -844,6 +836,16 @@
   top: 405px;
   height: 17px;
   width: 62px;
+  visibility:;
+
+"draggable="false"/>
+
+<img src="images/pzt.png"  id="pzt_shake" style=
+" position: absolute;
+  left: 245px;
+  top: 404px;
+  height: 17px;
+  width: 55px;
   visibility:;
 
 "draggable="false"/>
@@ -943,6 +945,24 @@
   border: 4px solid black;
   border-radius: 214px;
   visibility:hidden;
+
+"draggable="false"/>
+
+<img src="images/fog.png"  id="smoke1" style=
+" position: absolute;
+  left: 205px;
+  top: 200px;
+  height: 135px;
+  display: none;
+
+"draggable="false"/>
+
+<img src="images/fog.png"  id="smoke2" style=
+" position: absolute;
+  left: 248px;
+  top: 200px;
+  height: 135px;
+  display: none;
 
 "draggable="false"/>
 
@@ -1170,9 +1190,9 @@
 <span class="blink_me" id="arwtb_blackclip" style="position:absolute; font-size: 30px; left: 505px;
     top: 465px; color: blue; visibility:hidden;"><strong><i class="fa fa-arrow-down"></i></strong></span>
 
-<span class="blink_me" id="arrow12" style="position:absolute; font-size: 30px; left:695px; top:498px; color: steelblue; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+<span class="blink_me" id="arrow12" style="position:absolute; font-size: 30px; left:695px; top:498px; color: black; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
 
- <i class="fa fa-hand-o-right" id="nextButton12" style="color: steelblue; position:absolute; left:740px; top:500px; font-size: 35px; visibility:hidden;" onclick="navNext2()"></i>
+ <i class="fa fa-hand-o-right" id="nextButton12" style="color: black; position:absolute; left:740px; top:500px; font-size: 35px; visibility:hidden;" onclick="navNext2()"></i>
 
 
 </div> 
@@ -1215,8 +1235,9 @@
 position: absolute;
 left: 120px;
 top: 109px;
+width: 100px;
     ">
-<option value="">---Select Option---</option>
+<!-- <option value="">---Select Option---</option> -->
 <option value="frm1"> 1ms </option>
 </select>
 
@@ -1227,14 +1248,15 @@ top: 109px;
 position: absolute;
 left: 490px;
 top: 109px;
+width: 100px;
     ">
-<option value="">---Select Option---</option>
+<!-- <option value="">---Select Option---</option> -->
 <option value="frm2"> 5000 Hz </option>
 </select>
 
 <span id="select_abc" style="visibility:hidden; position: absolute; left: 665px; top: 141px; font-size: 17px; color: red;"><strong> Select First</strong> </span>
 
-<button id="btn_submit" style=" position: absolute; left: 645px; top: 105px; height: 25px; width: 130px;  background-color: steelblue;color: white; visibility: ;" onclick="graph_show()">Submit</button>
+<!-- <button id="btn_submit" style=" position: absolute; left: 645px; top: 105px; height: 25px; width: 130px;  background-color: steelblue;color: white; visibility: ;" onclick="graph_show()">Submit</button> -->
 
 <div id="transwhite" style=" position: absolute;
     left: 25px;
@@ -1281,9 +1303,9 @@ top: 109px;
 
 <a href="images/Expt1.xls"><button id="btn_dwld" style=" position: absolute; left: 95px; top: 485px; height: 25px; width: 130px;  background-color: steelblue;color: white; visibility: hidden;">Download Data</button></a>
 
-<span class="blink_me" id="arrow13" style="position:absolute; font-size: 30px; left:690px; top:490px; color: steelblue; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
+<span class="blink_me" id="arrow13" style="position:absolute; font-size: 30px; left:690px; top:490px; color: black; visibility:hidden;"><strong><i class="fa fa-arrow-right"></i></strong></span>
 
- <i class="fa fa-hand-o-right" id="nextButton13" style="color: steelblue; position:absolute; left:730px; top:490px; font-size: 35px; visibility:hidden;" onclick="navNext3()"></i>
+ <i class="fa fa-hand-o-right" id="nextButton13" style="color: black; position:absolute; left:730px; top:490px; font-size: 35px; visibility:hidden;" onclick="navNext3()"></i>
 
 
 </div> 

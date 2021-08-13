@@ -27,6 +27,11 @@ document.getElementById("canvas2").style.visibility="hidden";
 
 document.getElementById("canvas3").style.visibility="visible";
 
+setTimeout(function()
+{
+	graph_show()
+},1500);
+
 }
 
 function navNext3()
@@ -249,7 +254,13 @@ document.getElementById("animation_btn").style.visibility="hidden";
 
 document.getElementById("hammer_stick").style.animation="hammer_stick_move 2.5s infinite";
 document.getElementById("hammer_circle").style.animation="hammer_circle_move 2.5s infinite";
-
+setTimeout(function()
+{
+document.getElementById("beam_shake").style.animation="shake 0.5s infinite";
+document.getElementById("pzt_shake").style.animation="shake 0.5s infinite";
+// document.getElementById("pztwire_black").style.animation="shake 0.5s infinite";
+// document.getElementById("pztwire_red").style.animation="shake 0.5s infinite";
+},1800);
 document.getElementById("arw7").style.visibility="visible";
 document.getElementById("stop_btn").style.visibility="visible";
 
@@ -264,6 +275,12 @@ function stop_hammer()
 
 document.getElementById("arw7").style.visibility="hidden";
 document.getElementById("stop_btn").style.visibility="hidden";
+
+setTimeout(function()
+{
+document.getElementById("beam_shake").style.animation="";
+document.getElementById("pzt_shake").style.animation="";
+},1000);
 
 document.getElementById("hammer_stick").style.animation=" 1s infinite";
 document.getElementById("hammer_circle").style.animation=" 1s infinite";
@@ -596,6 +613,7 @@ document.getElementById("step2_5").style.visibility="hidden";
 document.getElementById("step2_6").style.visibility="visible";
 }
 
+
 function soldring()
 
 {
@@ -610,16 +628,21 @@ document.getElementById("silverhand").style.visibility="visible";
 
 document.getElementById("handrod_wire").style.animation="handrod_wiresold 2s forwards";
 document.getElementById("silverhand").style.animation="silverhand_wiresold 2s forwards";
-
+setTimeout(function()
+{
+$("#smoke1").fadeIn(1000);
+},2000);
 setTimeout(function()
 {
 
 document.getElementById("soldering_image").style.visibility="visible";
 
+// document.getElementById("").style.visibility="visible";
 document.getElementById("handrod_wire").style.animation="handrod_wiresold2 1s forwards";
 document.getElementById("silverhand").style.animation="silverhand_wiresold2 1s forwards";
-
-},2000);
+$("#smoke1").fadeOut(1000);
+$("#smoke2").fadeIn(1000);
+},3000);
 
 setTimeout(function()
 {
@@ -628,8 +651,8 @@ document.getElementById("soldering2_image").style.visibility="visible";
 
 document.getElementById("handrod_wire").style.animation="handrod_wiresold3 2s forwards";
 document.getElementById("silverhand").style.animation="silverhand_wiresold3 2s forwards";
-
-},3000);
+$("#smoke2").fadeOut(1000);
+},5000);
 
 setTimeout(function()
 {
@@ -650,7 +673,7 @@ document.getElementById("arw_soldallback").style.visibility="visible";
 document.getElementById("step2_6").style.visibility="hidden";
 document.getElementById("step2_7").style.visibility="visible";
 
-},5000);
+},7000);
 }
 
 
