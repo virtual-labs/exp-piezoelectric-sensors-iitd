@@ -21,7 +21,7 @@ This command will produce an array of voltage values in the frequency domain. Th
 <img src="images/th3.png" style="height:50px; padding-left: 30px;"/>
 
 where <i>N</i> is the total number of samples in the time domain and <i>T</i> the sampling interval (here
-0.001 second). It may be noted that the VEE PRO dialogue box also provides the array <i>V_fft</i>. The user may use it directly if MATLAB is not available. Fig. 2 shows typical time and frequency domain responses expected if the experiment is correctly performed.
+0.001 second). The user may use it directly if MATLAB is not available. Fig. 2 shows typical time and frequency domain responses expected if the experiment is correctly performed.
 
 <img src="images/th4.png"/>
 
