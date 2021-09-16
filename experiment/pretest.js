@@ -89,7 +89,7 @@
 
 
     const myQuestions = [{
-            question: "1. The user may plot the time domain data in _____ to visualize the free damped oscillations more minutely.", ///// Write the question inside double quotes
+            question: "1. The user may plot the time domain data in _______ to visualize the free damped oscillations more minutely.", ///// Write the question inside double quotes
             answers: {
                 a: "Html", ///// Write the option 1 inside double quotes
                 b: "MS Word", ///// Write the option 2 inside double quotes
