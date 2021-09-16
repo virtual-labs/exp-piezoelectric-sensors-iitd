@@ -89,12 +89,12 @@
 
 
     const myQuestions = [{
-            question: "1.Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
+            question: "1.The user may plot the time domain data in ______ to visualize the free damped oscillations more minutely.", ///// Write the question inside double quotes
             answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
+                a: "Html", ///// Write the option 1 inside double quotes
+                b: "MS Word", ///// Write the option 2 inside double quotes
+                c: "Powerpoint", ///// Write the option 1 inside double quotes
+                d: "Excel", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "c" ///// Write the correct option inside double quotes
         },  
