@@ -133,12 +133,12 @@
         },
 
         {
-            question: "5. Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
+            question: "5. This virtual experiment simulates vibrations of a cantilever beam under external excitation induced using a", ///// Write the question inside double quotes
             answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
+                a: "PZT patch", ///// Write the option 1 inside double quotes
+                b: "Digital multi meter", ///// Write the option 2 inside double quotes
+                c: "Concrete block", ///// Write the option 1 inside double quotes
+                d: "Hammer", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "d" ///// Write the correct option inside double quotes
         },
