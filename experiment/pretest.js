@@ -111,12 +111,12 @@
         },
 
         {
-            question: "3. Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
+            question: "3. From the frequency plot, the user can identify the natural frequency of the ____", ///// Write the question inside double quotes
             answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
+                a: "Domain", ///// Write the option 1 inside double quotes
+                b: "Voltage", ///// Write the option 2 inside double quotes
+                c: "PZT Patch", ///// Write the option 1 inside double quotes
+                d: "Beam", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "d" ///// Write the correct option inside double quotes
         },
