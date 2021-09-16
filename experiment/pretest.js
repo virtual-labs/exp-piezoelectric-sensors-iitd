@@ -89,7 +89,7 @@
 
 
     const myQuestions = [{
-            question: "1.The user may plot the time domain data in ______ to visualize the free damped oscillations more minutely.", ///// Write the question inside double quotes
+            question: "1. The user may plot the time domain data in _____ to visualize the free damped oscillations more minutely.", ///// Write the question inside double quotes
             answers: {
                 a: "Html", ///// Write the option 1 inside double quotes
                 b: "MS Word", ///// Write the option 2 inside double quotes
@@ -100,12 +100,12 @@
         },  
 
         {
-            question: "2. Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
+            question: "2. The surface strain fluctuates between _____ and tension", ///// Write the question inside double quotes
             answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
+                a: "Sensor", ///// Write the option 1 inside double quotes
+                b: "Compression", ///// Write the option 2 inside double quotes
+                c: "Cantilever beam", ///// Write the option 1 inside double quotes
+                d: "Electrodes", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
         },
