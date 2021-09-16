@@ -122,12 +122,12 @@
         },
 
         {
-            question: "4. Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
+            question: "4. Compare the calculate theoretical frequency with the", ///// Write the question inside double quotes
             answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
+                a: "Given Frequency", ///// Write the option 1 inside double quotes
+                b: "Frequency obtained through this experiment", ///// Write the option 2 inside double quotes
+                c: "Frequency domain", ///// Write the option 1 inside double quotes
+                d: "Natural frequency", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
         },
