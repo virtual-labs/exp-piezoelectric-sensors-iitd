@@ -133,14 +133,14 @@
         },
 
         {
-            question: "5. Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
+            question: "5. The dialogue box enables downloading the time and the _____ in the computer of the user.", ///// Write the question inside double quotes
             answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
+                a: "Frequency domain data", ///// Write the option 1 inside double quotes
+                b: "Frequency plot", ///// Write the option 2 inside double quotes
+                c: "Peak response", ///// Write the option 1 inside double quotes
+                d: "Natural frequency", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "b" ///// Write the correct option inside double quotes
+            correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
          
