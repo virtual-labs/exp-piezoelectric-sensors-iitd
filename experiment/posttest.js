@@ -111,14 +111,14 @@
         },
 
         {
-            question: "3. Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
+            question: "3. The user can identify the natural frequency of the beam, from", ///// Write the question inside double quotes
             answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
+                a: "Frequency plot", ///// Write the option 1 inside double quotes
+                b: "Damping ratio", ///// Write the option 2 inside double quotes
+                c: "Peak response", ///// Write the option 1 inside double quotes
+                d: "Material density", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "c" ///// Write the correct option inside double quotes
+            correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
         {
