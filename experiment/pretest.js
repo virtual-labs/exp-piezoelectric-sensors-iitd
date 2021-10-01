@@ -89,36 +89,36 @@
 
 
     const myQuestions = [{
-            question: "1. The user may plot the time domain data in _______ to visualize the free damped oscillations more minutely.", ///// Write the question inside double quotes
+            question: "1. Which domain is best for data visualization?", ///// Write the question inside double quotes
             answers: {
-                a: "Html", ///// Write the option 1 inside double quotes
-                b: "MS Word", ///// Write the option 2 inside double quotes
-                c: "Powerpoint", ///// Write the option 1 inside double quotes
-                d: "Excel", ///// Write the option 2 inside double quotes
+                a: "Time ", ///// Write the option 1 inside double quotes
+                b: "Frequency ", ///// Write the option 2 inside double quotes
+                c: "Both a & b", ///// Write the option 1 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "d" ///// Write the correct option inside double quotes
+            correctAnswer: "c" ///// Write the correct option inside double quotes
         },  
 
         {
             question: "2. The surface strain fluctuates between _____ and tension", ///// Write the question inside double quotes
             answers: {
-                a: "Sensor", ///// Write the option 1 inside double quotes
+                a: "Shear", ///// Write the option 1 inside double quotes
                 b: "Compression", ///// Write the option 2 inside double quotes
-                c: "Cantilever beam", ///// Write the option 1 inside double quotes
-                d: "Electrodes", ///// Write the option 2 inside double quotes
+                c: "Both a & b", ///// Write the option 1 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
         {
-            question: "3. From the frequency plot, the user can identify the natural frequency of the ____", ///// Write the question inside double quotes
+            question: "3. From the frequency plot, which parameter can be identified by the user?", ///// Write the question inside double quotes
             answers: {
-                a: "Domain", ///// Write the option 1 inside double quotes
-                b: "Voltage", ///// Write the option 2 inside double quotes
-                c: "PZT patch", ///// Write the option 1 inside double quotes
-                d: "Beam", ///// Write the option 2 inside double quotes
+                a: "Natural frequency", ///// Write the option 1 inside double quotes
+                b: "Damping ratio", ///// Write the option 2 inside double quotes
+                c: "Both a & b", ///// Write the option 1 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "d" ///// Write the correct option inside double quotes
+            correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
         {
@@ -127,7 +127,7 @@
                 a: "Hammer", ///// Write the option 1 inside double quotes
                 b: "Digital multi meter", ///// Write the option 2 inside double quotes
                 c: "Concrete block", ///// Write the option 1 inside double quotes
-                d: "Aluminium Cantilever", ///// Write the option 2 inside double quotes
+                d: "Aluminium cantilever", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
         },
@@ -136,7 +136,7 @@
             question: "5. This virtual experiment simulates vibrations of a cantilever beam under external excitation induced using a", ///// Write the question inside double quotes
             answers: {
                 a: "PZT patch", ///// Write the option 1 inside double quotes
-                b: "Digital multi meter", ///// Write the option 2 inside double quotes
+                b: "Shaker", ///// Write the option 2 inside double quotes
                 c: "Concrete block", ///// Write the option 1 inside double quotes
                 d: "Hammer", ///// Write the option 2 inside double quotes
             },
