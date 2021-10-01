@@ -94,7 +94,7 @@
                 a: "Cantilever beam", ///// Write the option 1 inside double quotes
                 b: "Hammer", ///// Write the option 2 inside double quotes
                 c: "Piezoelectric sensor", ///// Write the option 1 inside double quotes
-                d: "Voltage", ///// Write the option 2 inside double quotes
+                d: "Shaker", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "c" ///// Write the correct option inside double quotes
         },
@@ -105,7 +105,7 @@
                 a: "Corresponding frequency", ///// Write the option 1 inside double quotes
                 b: "Half power band method", ///// Write the option 2 inside double quotes
                 c: "Theoretical frequency", ///// Write the option 1 inside double quotes
-                d: "Following commands can be used", ///// Write the option 2 inside double quotes
+                d: "All of the above", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
         },
