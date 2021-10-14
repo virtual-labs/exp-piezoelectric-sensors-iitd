@@ -718,6 +718,11 @@ if (t1=="frm1" && f1=="frm2")
 
 document.getElementById("graph1").style.visibility="visible";
 document.getElementById("graph2").style.visibility="visible";
+
+document.getElementById("graph_up1").style.animation="graph_up1 12s forwards";
+document.getElementById("graph_up2").style.animation="graph_up1 15s forwards";
+
+
 document.getElementById("transwhite").style.visibility="visible";
 document.getElementById("note1").style.visibility="visible";
 document.getElementById("arrow_note").style.visibility="visible";
