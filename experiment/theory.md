@@ -18,13 +18,13 @@ The cantilever beam is excited into free-damped vibrations through an automatic 
 The user may plot the time domain data in excel to visualize the free damped oscillations more minutely. At the same time, through fast Fourier transform, the user can convert the time domain data (as an array of voltage output, <i>V_time</i>) in the frequency domain. If using MATLAB, following commands can be used:
 
 <center>
-<img src="images/th2.png" height="50px" />
+<img src="images/th2.png" height="35px" />
 </center>
 
 This command will produce an array of voltage values in the frequency domain. The corresponding array of frequencies can be obtained by using following command
 
 <center>
-<img src="images/th3.png" style="height:50px; padding-left: 30px;"/>
+<img src="images/th3.png" style="height:50px; padding-left: 35px;"/>
 </center>
 
 where <i>N</i> is the total number of samples in the time domain and <i>T</i> the sampling interval (here
@@ -37,7 +37,7 @@ where <i>N</i> is the total number of samples in the time domain and <i>T</i> th
 From the frequency plot, the user can identify the natural frequency of the beam as the frequency corresponding to which peak voltage response is observed. The damping ratio can be calculated using the half power band method (Paz, 2004) as
 
 <center>
-<img src="images/th5.png" height="70px"/>
+<img src="images/th5.png" height="40px"/>
 </center>
 
 where &#402;<sub>n</sub> is the frequency corresponding to peak response and &#402;<sub>1</sub> and &#402;<sub>2</sub> represent the frequencies corresponding to 0.707 of the peak response <i>(&#402;<sub>2</sub> > &#402;<sub>n</sub> > &#402;<sub>1</sub>)</i>.<br>
