@@ -1,1 +1,1 @@
-### Virtual Smart Structures And Dynamics Lab
+### Smart Structures And Dynamics Lab
