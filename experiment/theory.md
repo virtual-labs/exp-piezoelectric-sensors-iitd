@@ -37,14 +37,14 @@ where <i>N</i> is the total number of samples in the time domain and <i>T</i> th
 From the frequency plot, the user can identify the natural frequency of the beam as the frequency corresponding to which peak voltage response is observed. The damping ratio can be calculated using the half power band method (Paz, 2004) as
 
 <center>
-<img src="images/th5.png" height="70px"/>
+<img src="images/th5.png" height="60px"/>
 </center>
 
 where &#402;<sub>n</sub> is the frequency corresponding to peak response and &#402;<sub>1</sub> and &#402;<sub>2</sub> represent the frequencies corresponding to 0.707 of the peak response <i>(&#402;<sub>2</sub> > &#402;<sub>n</sub> > &#402;<sub>1</sub>)</i>.<br>
 The user may compare the values obtained through this experiment with damping ratio available from the literature and the theoretical frequency given below (Paz, 2004).
 
 <center>
-<img src="images/th6.png" style="padding-left: 18px; height: 70px"/>
+<img src="images/th6.png" style="padding-left: 18px; height: 65px"/>
 </center>
 
 where <i>E</i> denotes the Young’s modulus of elasticity of the beam, <i>I</i> the moment of inertia, <i>ρ</i> the material density and <i>L</i> the length of the beam.
