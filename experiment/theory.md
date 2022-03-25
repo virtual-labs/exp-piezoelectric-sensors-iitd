@@ -18,7 +18,7 @@ The cantilever beam is excited into free-damped vibrations through an automatic 
 The user may plot the time domain data in excel to visualize the free damped oscillations more minutely. At the same time, through fast Fourier transform, the user can convert the time domain data (as an array of voltage output, <i>V_time</i>) in the frequency domain. If using MATLAB, following commands can be used:
 
 <center>
-<img src="images/th2.png" height="65px" />
+<img src="images/th2.png" height="70px" />
 </center>
 
 This command will produce an array of voltage values in the frequency domain. The corresponding array of frequencies can be obtained by using following command
