@@ -24,7 +24,7 @@ The user may plot the time domain data in excel to visualize the free damped osc
 This command will produce an array of voltage values in the frequency domain. The corresponding array of frequencies can be obtained by using following command
 
 <center>
-<img src="images/th3.png" style="height:50px; padding-left: 80px;"/>
+<img src="images/th3.png" style="height:50px; padding-left: 90px;"/>
 </center>
 
 where <i>N</i> is the total number of samples in the time domain and <i>T</i> the sampling interval (here
