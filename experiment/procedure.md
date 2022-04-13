@@ -14,93 +14,112 @@
 
 <img src="images/pr1.png"/>
 
-2. Click on add button to bring aluminium cantilever.
+Step-1: (a) Click on add button to bring aluminium cantilever.
 
 <img src="images/pr2.png"/>
 
-3. Click on add button to bring concrete block.
+Step-1: (b) Click on add button to bring concrete block.
 
 <img src="images/pr3.png"/>
 
-4. Click on aluminium cantilever to place it on the concrete block.
+Step-1: (c) Click on aluminium cantilever to place it on the concrete block.
 
 <img src="images/pr4.png"/>
 
-5. Click on add button to bring another concrete block.
+Step-1: (d) Click on add button to bring another concrete block.
 
 <img src="images/pr5.png"/>
 
-6. Click on another concrete block to place it on the aluminium cantilever.
+Step-1: (e) Click on concrete block to place it on the aluminium cantilever.
 
 <img src="images/pr6.png"/>
 
-7. Click on add button to bring bond.
+Step-1: (f) Click on add button to bring epoxy.
 
 <img src="images/pr7.png"/>
 
-8. Click on brush to apply bond on the aluminium cantilever.
+Step-1: (g) Click on brush to apply epoxy on the aluminium cantilever.
 
 <img src="images/pr8.png"/>
 
-9. Click on add button to bring PZT patch.
+Step-1: (h) Click on add button to bring PZT patch.
 
 <img src="images/pr9.png"/>
 
-10. Click on PZT patch to fix it on the aluminium cantilever.
+Step-1: (i) Click on PZT patch to fix it on the aluminium cantilever.
 
 <img src="images/pr10.png"/>
 
-11. Click on add button to bring soldering iron.
+Step-2: (a) Click on add button to bring soldering iron.
 
 <img src="images/pr11.png"/>
 
-12. Click on add button to bring wires.
+Step-2: (b) Click on add button to bring wires.
 
 <img src="images/pr12.png"/>
 
-13. Click on wires one by one to place these on the PZT patch.
+Step-2: (c) Click on red wire to place it on the PZT patch.
 
 <img src="images/pr13.png"/>
 
-14. Click on PZT patch for zoom view.
+Step-2: (d) Click on black wire to place it on the PZT patch.
 
 <img src="images/pr14.png"/>
 
-15. Click on soldering iron for soldering.
+Step-2: (e) Click on PZT patch for zoom view.
 
 <img src="images/pr15.png"/>
 
-16. Click on add button to bring hammer.
+Step-2: (f) Click on soldering iron for soldering.
 
 <img src="images/pr16.png"/>
 
-17. Click on add button to bring digital multimeter.
+Step-2: (g) Click on soldering iron to bring it back.
 
 <img src="images/pr17.png"/>
 
-18. Click on both clips one by one to attach these with PZT wires.
+Step-2: (h) Click on add button to bring hammer.
 
 <img src="images/pr18.png"/>
 
-19. Switch on the power button of digital multimeter.
+Step-2: (i) Click on add button to bring digital multimeter.
 
 <img src="images/pr19.png"/>
 
-20. Click on hammer button to start animation.
+Step-2: (j) Click on black clip to attach wire with PZT wire.
 
 <img src="images/pr20.png"/>
 
-21. Click on stop button to stop animation.
+Step-2: (k) Click on red clip to attach wire with PZT wire.
 
 <img src="images/pr21.png"/>
 
-22. Click on download data button.
+Step-2: (l) Switch on the power button of digital multimeter.
 
 <img src="images/pr22.png"/>
 
-23. Calculate the natural frequency theoretically and compare with frequency obtained through this experiment.
+Step-2: (m) Click on hammer button to start animation.
 
 <img src="images/pr23.png"/>
+
+Step-2: (n) Click on stop button to stop animation.
+
+<img src="images/pr24.png"/>
+
+Step-3: Click on download data button.
+
+<img src="images/pr25.png"/>
+
+Step-4: Calculate the natural frequency theoretically
+
+Thank you for performing the experiment
+
+<img src="images/pr26.png"/>
+
+
+
+
+
 
 <!-- **POST EXPERIMENT QUIZ QUESTIONS**
 
@@ -108,6 +127,6 @@
 2) Using Matlab convert the voltage response from time domain to
 frequency domain and plot the graph.
 3) Calculate the natural frequency of the beam from the frequency plot.
-4) Calculate the damping ratio using half power band method. -->
+4) Calculate the damping ratio using half power band method. 
 5) Compare the experimental damping ratio with the value available in
-literature.
+literature.-->
