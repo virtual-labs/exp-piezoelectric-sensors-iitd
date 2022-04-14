@@ -4,6 +4,6 @@
 
 3.	Sirohi, J. and Chopra, I. (2000), “Fundamental Understanding of Piezoelectric Strain Sensors”, Journal of Intelligent Material Systems and Structures, Vol. 11, No. 4, pp. 246-257.
 	
-4.	<a href="http://ssdl.iitd.ac.in/vssdl/piezo.pdf">Literature on piezoelectric materials.</a>
+4.	<a href="images/piezo.pdf" target="_blank">Literature on piezoelectric materials.</a>
 
 5.	For manual <a href="images/manual_exp1.pdf" target="_blank">click here</a>

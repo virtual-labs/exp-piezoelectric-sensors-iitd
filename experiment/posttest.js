@@ -89,58 +89,58 @@
 
 
     const myQuestions = [{
-            question: "1. Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
+            question: "1. The instantaneous voltage developed across the _____ is measured at the user specified time interval using the DMM", ///// Write the question inside double quotes
             answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
+                a: "Cantilever beam", ///// Write the option 1 inside double quotes
+                b: "Hammer", ///// Write the option 2 inside double quotes
+                c: "Piezoelectric sensor", ///// Write the option 1 inside double quotes
+                d: "Shaker", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "c" ///// Write the correct option inside double quotes
         },
 
         {
-            question: "2. Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
+            question: "2. The damping ratio can be calculated using the", ///// Write the question inside double quotes
             answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "c" ///// Write the correct option inside double quotes
-        },
-
-        {
-            question: "3. Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
-            answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "c" ///// Write the correct option inside double quotes
-        },
-
-        {
-            question: "4. Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
-            answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
+                a: "Corresponding frequency", ///// Write the option 1 inside double quotes
+                b: "Half power band method", ///// Write the option 2 inside double quotes
+                c: "Theoretical frequency", ///// Write the option 1 inside double quotes
+                d: "All of the above", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
         {
-            question: "5. Lorem ipsum is placeholder text commonly used in the graphic", ///// Write the question inside double quotes
+            question: "3. The user can identify the natural frequency of the beam, from", ///// Write the question inside double quotes
             answers: {
-                a: "Data Required", ///// Write the option 1 inside double quotes
-                b: "Data Required", ///// Write the option 2 inside double quotes
-                c: "Data Required", ///// Write the option 1 inside double quotes
-                d: "Data Required", ///// Write the option 2 inside double quotes
+                a: "Frequency plot", ///// Write the option 1 inside double quotes
+                b: "Damping ratio", ///// Write the option 2 inside double quotes
+                c: "Peak response", ///// Write the option 1 inside double quotes
+                d: "Material density", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "4. Compare the calculate theoretical frequency with the", ///// Write the question inside double quotes
+            answers: {
+                a: "Given Frequency", ///// Write the option 1 inside double quotes
+                b: "Frequency obtained through this experiment", ///// Write the option 2 inside double quotes
+                c: "Frequency domain", ///// Write the option 1 inside double quotes
+                d: "Natural frequency", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "5. The dialogue box enables downloading the time and the _____ in the computer of the user.", ///// Write the question inside double quotes
+            answers: {
+                a: "Frequency domain data", ///// Write the option 1 inside double quotes
+                b: "Frequency plot", ///// Write the option 2 inside double quotes
+                c: "Peak response", ///// Write the option 1 inside double quotes
+                d: "Natural frequency", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
          
